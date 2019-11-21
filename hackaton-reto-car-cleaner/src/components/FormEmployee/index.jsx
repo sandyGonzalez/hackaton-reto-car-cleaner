@@ -1,5 +1,6 @@
 import React from "react";
 import {Input} from '../';
+import Button from '../Button/index'
 import "./style.css";
 
 const FormEmployee = (props) => {
