@@ -1,4 +1,6 @@
+
  import * as firebase from 'firebase/firebase-app'
+<<<<<<< HEAD
  //  const firebaseConfig = { 
  //     apiKey: process.env.API_KEY, 
  //     authDomain: process.env.AUTH_DOMAIN,
@@ -7,8 +9,24 @@
  //     storageBucket: process.env.STORAGE_BUCKET, 
  //     messagingSenderId: process.env.MESSAGING_SENDER_ID,
  //     appId: process.env.APP_ID };
+=======
+//  const firebaseConfig = { 
+
+//     apiKey: process.env.API_KEY, 
+//     authDomain: process.env.AUTH_DOMAIN,
+//     databaseURL: process.env.DATABASE_URL,
+//     projectId: process.env.PROJECT_ID,
+//     storageBucket: process.env.STORAGE_BUCKET, 
+//     messagingSenderId: process.env.MESSAGING_SENDER_ID,
+//     appId: process.env.APP_ID };
+        
+        
+//         firebase.initializeApp(firebaseConfig); 
+//         // let db = firebase.firestore();
+>>>>>>> ac3b09a6443ed49ceb7063667185574327eb8805
 
 
+<<<<<<< HEAD
  //         firebase.initializeApp(firebaseConfig); 
  //         // let db = firebase.firestore();
 
@@ -25,3 +43,7 @@
  firebase.initializeApp(firebaseConfig);
 
  export default firebaseConfig;
+=======
+          export default firebaseConfig;
+
+>>>>>>> ac3b09a6443ed49ceb7063667185574327eb8805

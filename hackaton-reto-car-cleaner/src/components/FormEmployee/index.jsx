@@ -1,5 +1,6 @@
 import React from "react";
 import {Input} from '../';
+import Button from '../Button/index'
 import "./style.css";
 
 const FormEmployee = (props) => {
@@ -52,8 +53,7 @@ const FormEmployee = (props) => {
                 value={confirmPasswordEmployee}
                 onChange={ handleChangeConfirmPassword}
             />
-            <input type ="submit" value="Aceptar" />           
-
+            <Button text = "SIGUIENTE"/>          
         </form>
     )
 
