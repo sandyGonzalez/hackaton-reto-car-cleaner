@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 import {FormEmployee} from '../../components';
 import * as firebase from 'firebase/app';
 import 'firebase/auth';
-import firebaseConfig from '../../config'
+import firebaseApp from '../../firebaseInitialize'
 import withFirebaseAuth from 'react-with-firebase-auth';
 import {MapComponent} from '../../components'
 import './style.css';
@@ -74,7 +74,7 @@ const providers = {
 
 
 
-const firebaseApp = firebase.initializeApp(firebaseConfig);
+// const firebaseApp = firebase.initializeApp(firebaseConfig);
 const firebaseAppAuth = firebaseApp.auth();
 
 export default withFirebaseAuth({
