@@ -27,5 +27,6 @@ const firebaseAppAuth = firebaseApp.auth();
 
 export default withFirebaseAuth({
     providers,
+    
     firebaseAppAuth,
 })(RegisterEmployee);
