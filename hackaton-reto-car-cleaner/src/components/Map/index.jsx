@@ -1,16 +1,28 @@
 import React, {useState} from "react"
 import './style.css'
-import { Map, Marker, Popup, TileLayer, LeafletMap } from 'react-leaflet'
-
-// const position = [51.505, -0.09]
+import ReactMapGL from 'react-map-gl';
 
 
-// const MapComponent = () => {
-    
-//     return (
-        
 
-//     )
-//   }
 
-//   export default MapComponent
+const MapComponent = () => {
+    const [viewport, setViewport] = useState(
+        {
+            width: 400,
+            height: 400,
+            latitude: 37.7577,
+            longitude: -122.4376,
+            zoom: 8
+        }
+    )
+
+    return (
+        <ReactMapGL
+            {...viewport}
+            onViewportChange={(viewport)=> setViewport(viewport)}
+        />     
+
+    )
+  }
+
+  export default MapComponent
