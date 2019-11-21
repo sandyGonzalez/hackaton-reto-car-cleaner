@@ -1,9 +1,9 @@
 import React from 'react';
 import {FormEmployee} from '../../components';
-import * as firebase from 'firebase/app';
-import 'firebase/auth';
-import {firebaseConfig} from '../../config'
-import withFirebaseAuth, { WrappedComponentProps } from 'react-with-firebase-auth';
+// import * as firebase from 'firebase/app';
+// import 'firebase/auth';
+// import {firebaseConfig} from '../../config'
+// import withFirebaseAuth, { WrappedComponentProps } from 'react-with-firebase-auth';
 import './style.css';
 
 const RegisterEmployee = ({signInWithEmailAndPassword,
@@ -16,16 +16,18 @@ const RegisterEmployee = ({signInWithEmailAndPassword,
     )
 }
 
-const providers = {
-    emailProvider : new firebase.auth.EmailAuthProvider(),
-}
+// const providers = {
+//     emailProvider : new firebase.auth.EmailAuthProvider(),
+// }
 
 
 
-const firebaseApp = firebase.initializeApp(firebaseConfig);
-const firebaseAppAuth = firebaseApp.auth();
+// const firebaseApp = firebase.initializeApp(firebaseConfig);
+// const firebaseAppAuth = firebaseApp.auth();
 
-export default withFirebaseAuth({
-    providers,
-    firebaseAppAuth,
-})(RegisterEmployee);
+// export default withFirebaseAuth({
+//     providers,
+//     firebaseAppAuth,
+// })(RegisterEmployee);
+
+export default RegisterEmployee

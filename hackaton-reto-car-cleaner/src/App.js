@@ -3,6 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Welcome from './views/Welcome/index'
 import RegisterEmployee from './views/RegisterEmployee/index'
+import RegisterUser from './views/RegisterUser/index'
 
 
 function App() {
