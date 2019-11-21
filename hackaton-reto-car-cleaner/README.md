@@ -6,6 +6,7 @@ Actualmente el servicio de lavado de coches es solicitado a través de Whatsapp 
 Ella se ha acercado a ustedes como equipo de diseño y desarrollo digital para que puedan transformar su negocio en un negocio escalable y con más visibilidad. 
 El reto es diseñar y desarrollar una webapp (tipo Uber) a través de la cual los usuarios puedan fácilmente acceder y pedir el servicio de lavado de auto determinando la ubicación a través de algún servicio de geolocalización, y al mismo tiempo puedan saber quién lavará su auto, cuánto tiempo tomará, etc. 
 Y por otro lado, que la webapp le permita a Ana (como administradora) conocer los detalles de su negocio más amplia y detalladamente para así poder analizar y tomar decisiones sobre este. 
+
 Requerimientos:
 ● Registro como ADMIN y registro como USUARIO 
 ● Creación del Perfil del usuario 
