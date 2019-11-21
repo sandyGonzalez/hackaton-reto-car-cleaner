@@ -1,3 +1,4 @@
 import Input from './Input';
+import FormEmployee from './FormEmployee';
 
-export { Input }
+export { Input, FormEmployee }
