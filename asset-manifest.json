@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "./static/css/main.78a12490.chunk.css",
+    "main.js": "./static/js/main.d8f988cb.chunk.js",
+    "main.js.map": "./static/js/main.d8f988cb.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.02e618b3.js",
+    "runtime-main.js.map": "./static/js/runtime-main.02e618b3.js.map",
+    "static/js/2.da933122.chunk.js": "./static/js/2.da933122.chunk.js",
+    "static/js/2.da933122.chunk.js.map": "./static/js/2.da933122.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.78c02d2b619b77d2b0c9bd7ff820d658.js": "./precache-manifest.78c02d2b619b77d2b0c9bd7ff820d658.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.78a12490.chunk.css.map": "./static/css/main.78a12490.chunk.css.map",
+    "static/media/style.css": "./static/media/emile-guillemot-ci7gkM_29wA-unsplash.c2571454.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.02e618b3.js",
+    "static/js/2.da933122.chunk.js",
+    "static/css/main.78a12490.chunk.css",
+    "static/js/main.d8f988cb.chunk.js"
+  ]
+}
