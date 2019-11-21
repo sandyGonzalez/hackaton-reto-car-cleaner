@@ -37,3 +37,6 @@ HACKER EDITION
 ● Uso de GRAPHQL, Apollo y MongoDB https://medium.com/@lachlanmiller_52885/graphql-basics-and-practical-exampl es-with-vue-6b649b9685e0 
 https://vue-apollo.netlify.com/ 
 ● Integrar el pago del servicio a traves de Paypal https://developer.paypal.com/docs/api-basics/ 
+
+
+
