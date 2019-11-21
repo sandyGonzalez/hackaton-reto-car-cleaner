@@ -62,12 +62,10 @@ const FormUser = ( props ) => {
                 value={confirmPasswordUser}
                 onChange={ handleChange}
             />
-            <input className="button" onClick={registerUserInFirebase} type ="submit" value="Aceptar" />           
-            <div>
-           
-                    < button onClick={signInWithGoogle}>Sign in with Google</button>
-          
+            <div> 
+               <button className="google-btn" onClick={signInWithGoogle}>Inicia sesión con Google</button>
             </div>
+            <input className="button" onClick={registerUserInFirebase} type ="submit" value="Aceptar" />   
         </form >
     )
 
