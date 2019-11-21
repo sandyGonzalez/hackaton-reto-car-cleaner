@@ -6,9 +6,10 @@ import Welcome from './views/Welcome/index';
 import RegisterUser from './views/RegisterUser/index';
 import RegisterEmployee from './views/RegisterEmployee/index';
 
-
 function App() {
+
   return (
+    
     <Router>
       <Switch>
         {/* <Route exact path = "/" render = {props => <Welcome/>}></Route> */}

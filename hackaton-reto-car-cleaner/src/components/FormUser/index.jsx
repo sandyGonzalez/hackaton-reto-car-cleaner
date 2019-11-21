@@ -2,46 +2,67 @@ import React from "react";
 import { Input } from '../';
 import * as firebase from 'firebase/app';
 import 'firebase/auth';
-import firebaseConfig from '../../config'
 import withFirebaseAuth, { WrappedComponentProps } from 'react-with-firebase-auth';
 import "./style.css";
 import Button from '../Button/index'
-
-const firebaseApp = firebase.initializeApp(firebaseConfig);
-
+import firebaseApp from '../../firebaseInitialize'
 
 
 
-const FormUser = ({ user, signOut, signInWithGoogle }) => {
+// const firebaseApp = firebase.initializeApp(firebaseConfig);
+const FormUser = ( props ) => {
+    const {
+        nameUser, 
+        emailUser,
+        phoneUser,
+        passwordUser,
+        confirmPasswordUser,
+        handleChange,
+        registerUserInFirebase,
+        signInWithGoogle
+        } = props;
+
+    
+
     return (
         <form className="form-employee">
             <Input
                 type="text"
                 name="name"
                 placeholder="Nombre de usuario"
+                value={nameUser}
+                onChange={handleChange}
             />
             <Input
                 type="number"
                 name="phone"
                 placeholder="Teléfono"
+                value={phoneUser}
+                onChange={handleChange}
             />
             <Input
                 type="text"
                 name="email"
                 placeholder="Correo electrónico"
+                value={emailUser}
+                onChange={handleChange}
             />
 
             <Input
                 type="password"
                 name="password"
                 placeholder="Crear contraseña"
+                value={passwordUser}
+                onChange={handleChange}
             />
             <Input
                 type="password"
                 name="confirm-password"
                 placeholder="Confirmar contraseña"
+                value={confirmPasswordUser}
+                onChange={ handleChange}
             />
-            <Button text="SIGUIENTE" />
+            <input className="button" onClick={registerUserInFirebase} type ="submit" value="Aceptar" />           
             <div>
            
                     < button onClick={signInWithGoogle}>Sign in with Google</button>
