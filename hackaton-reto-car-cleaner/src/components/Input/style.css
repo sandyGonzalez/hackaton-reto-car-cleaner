@@ -54,6 +54,7 @@
  
  .input-container input:not(:placeholder-shown)+span {
      color: #5a667f;
+     transform: translateY(-26px) scale(0.75);
  }
  
  .input-container input:focus {
