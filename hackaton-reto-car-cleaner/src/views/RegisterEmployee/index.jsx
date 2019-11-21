@@ -23,6 +23,10 @@ const RegisterEmployee = ({signInWithEmailAndPassword,
 
 
 
+
+
+
+
 // const firebaseApp = firebase.initializeApp(firebaseConfig);
 // const firebaseAppAuth = firebaseApp.auth();
 
