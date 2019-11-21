@@ -83,6 +83,10 @@ const RegisterEmployee = ({signInWithEmailAndPassword,
 
 export default withFirebaseAuth({
     providers,
+<<<<<<< HEAD
 
     firebaseAppAuth,
+=======
+    // firebaseAppAuth,
+>>>>>>> 5e4652bd67ccc14a8b825ed8f9139178ad7f3a17
 })(RegisterEmployee); 
