@@ -4,7 +4,7 @@ import * as firebase from 'firebase/app';
 import 'firebase/auth';
 import firebaseApp from '../../firebaseInitialize'
 import withFirebaseAuth from 'react-with-firebase-auth';
-// import {MapComponent} from '../../components'
+import {MapComponent} from '../../components'
 import './style.css';
 
 const RegisterEmployee = ({signInWithEmailAndPassword,
@@ -62,7 +62,7 @@ const RegisterEmployee = ({signInWithEmailAndPassword,
              handleChangeConfirmPassword={handleChangeConfirmPassword}
              registerEmployeeInFirebase={registerEmployeeInFirebase}
             />
-            {/* <MapComponent /> */}
+            <MapComponent />
         </section>
     )
 }
