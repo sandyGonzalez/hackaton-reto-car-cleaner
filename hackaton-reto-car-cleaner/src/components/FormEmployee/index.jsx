@@ -53,6 +53,8 @@ const FormEmployee = (props) => {
                 value={confirmPasswordEmployee}
                 onChange={ handleChangeConfirmPassword}
             />
+            <p>Lee nuestros <a>términos y condiciones</a></p>
+
             <input className="button" onClick={registerEmployeeInFirebase} type ="submit" value="Aceptar" />           
 
         </form>
