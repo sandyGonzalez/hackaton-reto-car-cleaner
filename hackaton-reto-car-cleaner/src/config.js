@@ -8,5 +8,5 @@ export const firebaseConfig = {
     appId: process.env.APP_ID };
         
         
-        firebase.initializeApp(firebaseConfig); 
-        let db = firebase.firestore();
+       firebase.initializeApp(firebaseConfig); 
+        let db = firebase.firestore(); 
