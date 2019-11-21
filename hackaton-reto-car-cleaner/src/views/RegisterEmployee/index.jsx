@@ -1,3 +1,4 @@
+
 import React, {useState} from 'react';
 import {FormEmployee} from '../../components';
 import * as firebase from 'firebase/app';
@@ -78,6 +79,7 @@ const firebaseAppAuth = firebaseApp.auth();
 
 export default withFirebaseAuth({
     providers,
-
     firebaseAppAuth,
 })(RegisterEmployee);
+
+
