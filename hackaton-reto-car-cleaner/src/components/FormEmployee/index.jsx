@@ -1,14 +1,36 @@
 import React from "react";
+import {Input} from '../';
 import "./style.css";
 
 const FormEmployee = () => {
+    
     return (
-        <form>
-            <input className="input-form" type="text" placeholder="Nombre" />
-            <input className="input-form" type="text" placeholder="Email" />
-            <input className="input-form" type="number" placeholder="Teléfono" />
-            <input className="input-form" type="password" placeholder="Crear contraseña" />
-            <input className="input-form" type="password" placeholder="Confirmar contraseña" /> 
+        <form className="form-employee">
+            <Input
+                type="text"
+                name="name"
+                placeholder="Nombre"
+            />
+            <Input
+                type="text"
+                name="email"
+                placeholder="Correo electrónico"
+            />
+            <Input
+                type="number"
+                name="phone"
+                placeholder="Teléfono"
+            />
+             <Input
+                type="password"
+                name="password"
+                placeholder="Crear contraseña"
+            />
+             <Input
+                type="password"
+                name="confirm-password"
+                placeholder="Confirmar contraseña"
+            />
             <input type ="submit" value="Aceptar" />           
 
         </form>
