@@ -1,4 +1,4 @@
-DELIVERY DE LAVADO DE AUTOS
+DELIVERY DE LAVADO DE AUTOS.
 
 Reto:
 Este reto nos lo trae es una startup dedicada al lavado de autos a domicilio, lo cual significa que no tiene un establecimiento fijo. 
