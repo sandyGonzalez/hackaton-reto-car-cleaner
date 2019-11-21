@@ -3,7 +3,7 @@ import {FormEmployee} from '../../components';
 import * as firebase from 'firebase/app';
 import 'firebase/auth';
 import firebaseConfig from '../../config'
-import withFirebaseAuth, { WrappedComponentProps } from 'react-with-firebase-auth';
+import withFirebaseAuth from 'react-with-firebase-auth';
 import './style.css';
 
 const RegisterEmployee = ({signInWithEmailAndPassword,
@@ -27,6 +27,6 @@ const firebaseAppAuth = firebaseApp.auth();
 
 export default withFirebaseAuth({
     providers,
-    
+
     firebaseAppAuth,
 })(RegisterEmployee);
