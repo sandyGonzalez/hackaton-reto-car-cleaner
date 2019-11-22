@@ -2,6 +2,9 @@ import React, {useState} from "react"
 import './style.css'
 import ReactMapGL from 'react-map-gl';
 
+import dotenv from "dotenv"
+ dotenv.config()
+
 const MapComponent = () => {
     const [viewport, setViewport] = useState(
         {
@@ -17,7 +20,7 @@ const MapComponent = () => {
         <ReactMapGL
             {...viewport}
             onViewportChange={(viewport)=> setViewport(viewport)}
-            mapboxApiAccessToken={"pk.eyJ1Ijoid2FzaHdhc2hsYWJvcmF0b3JpYSIsImEiOiJjazM5Ynk0dzIwMGFqM2NzMXZ1NGdoNGpxIn0.FjvmSMjNHJ7nTPNqmZWcBw"}
+            mapboxApiAccessToken={process.env.REACT_APP_MAP_KEY}
         />     
 
     )

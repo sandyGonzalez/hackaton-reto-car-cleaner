@@ -1,6 +1,5 @@
 import React from "react";
 import {Input} from '../';
-import Button from '../Button/index'
 import "./style.css";
 
 const FormEmployee = (props) => {
@@ -53,9 +52,8 @@ const FormEmployee = (props) => {
                 placeholder="Confirmar contraseña"
                 value={confirmPasswordEmployee}
                 onChange={ handleChangeConfirmPassword}
-            />
+                />
             <p>Lee nuestros <a>términos y condiciones</a></p>
-
             <input className="button" onClick={registerEmployeeInFirebase} type ="submit" value="Aceptar" />           
 
         </form>
