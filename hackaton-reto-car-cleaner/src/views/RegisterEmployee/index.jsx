@@ -1,9 +1,10 @@
 import React, {useState} from 'react';
 import {FormEmployee} from '../../components';
- import * as firebase from 'firebase/app';
+import * as firebase from 'firebase/app';
 import 'firebase/auth';
-import firebaseConfig from '../../config'
+import firebaseApp from '../../firebaseInitialize'
 import withFirebaseAuth from 'react-with-firebase-auth';
+import {MapComponent} from '../../components'
 import './style.css';
 
 const RegisterEmployee = ({signInWithEmailAndPassword,
@@ -61,24 +62,19 @@ const RegisterEmployee = ({signInWithEmailAndPassword,
              handleChangeConfirmPassword={handleChangeConfirmPassword}
              registerEmployeeInFirebase={registerEmployeeInFirebase}
             />
+            <MapComponent />
         </section>
     )
 }
 
- const providers = {
+const providers = {
     emailProvider : new firebase.auth.EmailAuthProvider(),
 }
 
 
 
 // const firebaseApp = firebase.initializeApp(firebaseConfig);
-// const firebaseAppAuth = firebaseApp.auth();
-
-// export default withFirebaseAuth({
-//     providers,
-//     firebaseAppAuth,
-// })(RegisterEmployee);
-
+const firebaseAppAuth = firebaseApp.auth();
 
 export default withFirebaseAuth({
     providers,
