@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "./static/css/main.cdfe8303.chunk.css",
-    "main.js": "./static/js/main.51454dbc.chunk.js",
-    "main.js.map": "./static/js/main.51454dbc.chunk.js.map",
+    "main.js": "./static/js/main.072e33ae.chunk.js",
+    "main.js.map": "./static/js/main.072e33ae.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.02e618b3.js",
     "runtime-main.js.map": "./static/js/runtime-main.02e618b3.js.map",
     "static/js/2.3b723cc1.chunk.js": "./static/js/2.3b723cc1.chunk.js",
     "static/js/2.3b723cc1.chunk.js.map": "./static/js/2.3b723cc1.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.447229ed5ecca9b6ece422cde62ad7c8.js": "./precache-manifest.447229ed5ecca9b6ece422cde62ad7c8.js",
+    "precache-manifest.2b7fbc8c10c166f31b72f56bc6dcc703.js": "./precache-manifest.2b7fbc8c10c166f31b72f56bc6dcc703.js",
     "service-worker.js": "./service-worker.js",
     "static/css/main.cdfe8303.chunk.css.map": "./static/css/main.cdfe8303.chunk.css.map",
     "static/media/style.css": "./static/media/emile-guillemot-ci7gkM_29wA-unsplash.c2571454.png"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.02e618b3.js",
     "static/js/2.3b723cc1.chunk.js",
     "static/css/main.cdfe8303.chunk.css",
-    "static/js/main.51454dbc.chunk.js"
+    "static/js/main.072e33ae.chunk.js"
   ]
 }
