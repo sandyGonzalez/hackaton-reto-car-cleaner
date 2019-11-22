@@ -14,7 +14,8 @@ const FormEmployee = (props) => {
         handleChangeEmail,
         handleChangePhone,
         handleChangePassword,
-        handleChangeConfirmPassword
+        handleChangeConfirmPassword,
+        registerEmployeeInFirebase
         } = props;
     return (
         <form className="form-employee">
@@ -53,7 +54,8 @@ const FormEmployee = (props) => {
                 value={confirmPasswordEmployee}
                 onChange={ handleChangeConfirmPassword}
             />
-            <Button text = "SIGUIENTE"/>          
+            <input className="button" onClick={registerEmployeeInFirebase} type ="submit" value="Aceptar" />           
+
         </form>
     )
 
